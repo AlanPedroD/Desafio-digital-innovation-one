@@ -1,2 +1,2 @@
-# Desafio digital innovation one
- Recriando a Interface do NETFLIX
+# Desafio Digital innovation one
+ Recriando a interface da NETFLIX
