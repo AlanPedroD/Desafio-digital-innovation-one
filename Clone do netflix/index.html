@@ -4,77 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/owl/responsive.css">
-    <title>NetFlix Clone</title>
+    <title>Clone NetFlix</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="stylesheet" href="src/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="src/css/owl/owl.theme.default.min.css">
 
+    <script src="https://kit.fontawesome.com/049c2c2b37.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <div id="container">
-            <h1 class="logo">MUSICALFLIX</h1>
-        <Nav class="menu">
-            <a href="#">Inicio</a>
-            <a href="#">Filmes</a>
-            <a href="#">Series</a>
-            <a href="#">Musical</a>
-        </Nav>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#">Filmes</a></li>
+                    <li><a href="#">Documentários</a></li>
+                </ul>
+            </nav>
         </div>
-        
-            <main>
-                <div class="caixa-principal"> 
-                    <div class="principal">
-                        <h2 class="titulo">Querido <span class="jonh">john</span></h2>
-                        <p class="paragrafo">As trilhas musicais do seu filme e series favoritos em um só lugar, escolha seu filme preferido e ouça sua trilha Musical</p>
-
-                        <div>
-                            <button role="button" class="botao">
-                                <i class="fas fa-play"></i>
-                                <a class="especial" href="pag02.html" target="_blank">ASSISTIR AGORA</a>
-                            </button>
-                            <BUtton role="button" class="botao">
-                                <i class="fas fa-info-circle"></i>
-                                MAIS INFORMÇOES
-                            </BUtton>
-                        </div>
-
-                        
-                    </div>
-                </div>
-                
-            </main>    
-        
-
-            <div class="carrosel-filmes">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <a href="https://youtu.be/e0e66K1am0A"><img src="midia/imagens/Querido john 2.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://youtu.be/rtOvBOTyX00"><img src="midia/imagens/crepusculo.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://youtu.be/o-aQ9oqiAjU"><img src="midia/imagens/closer03.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://youtu.be/Gqj_uc3KGTA"><img src="midia/imagens/uma linda mulher.jpg" alt=""></a>
-                    </div>
-                    <div class="item">
-                        <a href="https://youtu.be/6b_EcNBLukg"><img src="midia/imagens/simplesmente acontece.jpg" alt=""></a>
-                
-                    </div>
-
-                </div>
-        
-            </div>
-
-            <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
-            <script src="js/owl/jquery.min.js"></script>
-            <script src="js/owl/owl.carousel.min.js"></script>
-            <script src="js/owl/setup.js"></script>
-        
     </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">HOUSE OF CARDS</h3>
+                <p class="descricao">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
+                <div class="botoes">
+                    <a href="pagina-2.html" target="_blank">
+                        <button role="button" class="botao">
+                                <i class="fa-solid fa-play"></i>
+                                ASSISTIR AGORA
+                        </button>
+                    </a>
+                    <button role="button" class="botao">MAIS INFORMAÇÕES</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme lista">
+                <img class="box-filmes" src="src/image/imagem-1.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-2.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-3.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-4.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-5.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-6.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-7.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-8.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-9.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-10.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-11.jpg" alt="imagem">
+                <img class="box-filmes" src="src/image/imagem-12.jpg" alt="imagem">
+            </div>
+        </div>
+    </div>
+    
+    <script src="src/js/owl/jquery.min.js"></script>
+    <script src="src/js/owl/owl.carousel.min.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 </html>
