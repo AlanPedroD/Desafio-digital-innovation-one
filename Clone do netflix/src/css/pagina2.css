@@ -1,0 +1,48 @@
+header .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.carrosel-filmes{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.lista img{
+    max-width: 220px;
+    max-height: 330px;
+}
+
+
+.lista a{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lista i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.lista i:hover{
+    color: var(--vermelho);
+}
+
+span{
+    display: flex;
+    margin-left: 10px;
+    font-size: 16px;
+}
